@@ -9,16 +9,13 @@
   font-weight: normal;
   font-style: normal;
 }
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'iconsminds';
     src: url('https://cdn.statically.io/gh/vyant/icn/fb0c1c4b/font/iconsminds.svg?42207379#iconsminds') format('svg');
   }
 }
-*/
  
  [class^="iconsminds-"]:before, [class*=" iconsminds-"]:before {
   font-family: "iconsminds";
